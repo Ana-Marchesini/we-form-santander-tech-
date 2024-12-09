@@ -1,0 +1,97 @@
+.content-new__entity {
+  width: 37.5rem; /* 600px */
+  height: 32.5rem; /* 520px */
+  border: var(--form-border);
+  border-radius: 0.75rem; /* 12px */
+  padding: 2.75rem 3.438rem; /* 44px 55px */
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem; /* 8px */
+  position: relative;
+}
+
+.title i {
+  color: var(--color-1);
+  font-size: 1.25rem; /* 20px */
+  position: absolute;
+  top: 12px;
+}
+
+.title h2 {
+  font-size: 2.25rem; /* 36px */
+  margin-bottom: 2.938rem; /* 47px */
+  margin-left: 0.625rem; /* 10px */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 0 1rem; /* 16px */
+  margin-top: 0.625rem;
+}
+
+form input,
+form select {
+  width: 30.625rem; /* 490px */
+  height: 3.438rem; /* 55px */
+  border-radius: 0.75rem; /* 12px */
+  border: var(--form-border);
+}
+
+.btn-acess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.438rem; /* 55px */
+  background-color: var(--color-2);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 2.2rem; /* 36px */
+  border-radius: 0.75rem; /* 12px */
+  margin-top: 2.5rem; /* 40px */
+}
+
+@media (max-width: 1120px) {
+  .content-new__entity {
+    width: 90%; /* Ajuste para telas menores */
+    height: auto; /* Altura ajustável */
+    padding: 2rem; /* Reduzir o preenchimento */
+  }
+
+  .title h2 {
+    font-size: 2rem; /* Diminuir o tamanho do título */
+    margin-bottom: 2rem; /* Reduzir o espaçamento inferior */
+    margin-left: 0.5rem; /* Ajustar o deslocamento à esquerda */
+  }
+
+  .title i {
+    font-size: 1rem; /* Ajustar o tamanho do ícone */
+    top: 10px; /* Reposicionar */
+  }
+
+  form input,
+  form select {
+    width: 100%; /* Tornar os campos responsivos */
+    height: 3rem; /* Reduzir a altura dos campos */
+  }
+
+  form label {
+    margin: 0 0.5rem; /* Reduzir o espaçamento horizontal */
+    margin-top: 0.5rem; /* Ajustar o espaçamento superior */
+  }
+
+  .btn-acess {
+    font-size: 1.8rem; /* Diminuir o tamanho do texto */
+    height: 3rem; /* Ajustar a altura do botão */
+    margin-top: 2rem; /* Reduzir o espaçamento superior */
+  }
+}

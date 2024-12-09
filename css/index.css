@@ -1,0 +1,5 @@
+@import 'globals.css';
+
+/* Páginas */
+@import 'first-page.css';
+@import 'new-entity.css';
