@@ -98,6 +98,44 @@ footer a {
   color: var(--black);
   text-shadow: 0px 3px 12px rgba(0, 0, 0, 0.6);
 }
+/* Responsivo */
+/* CSS Responsivo */
+@media (min-width: 1120px) {
+  .content {
+    gap: 4rem; /* Aumenta o espaço entre os elementos */
+  }
+
+  h1 {
+    font-size: 5rem; /* Aumenta o tamanho do texto */
+    margin-top: 4rem; /* Ajusta a margem superior */
+  }
+
+  .content-form {
+    width: 45rem; /* Ajusta a largura para telas maiores */
+    height: 35rem; /* Ajusta a altura */
+    padding: 3rem 4rem; /* Ajusta o padding interno */
+  }
+
+  .content-form h2 {
+    max-width: 30rem; /* Ajusta a largura máxima do título */
+    font-size: 2.5rem; /* Aumenta o tamanho do texto */
+    margin-bottom: 4rem; /* Ajusta o espaçamento inferior */
+  }
+
+  .btn a {
+    font-size: 1.75rem; /* Aumenta o tamanho do texto */
+    height: 4rem; /* Ajusta a altura dos botões */
+    width: 35rem; /* Ajusta a largura dos botões */
+  }
+
+  footer p {
+    font-size: 1rem; /* Aumenta o tamanho do texto do rodapé */
+  }
+
+  footer a {
+    font-size: 1.25rem; /* Aumenta o tamanho do texto dos links no rodapé */
+  }
+}
 
 .content-new__entity {
   width: 37.5rem; /* 600px */
