@@ -82,77 +82,43 @@ footer a {
 /* Responsivo */
 @media (max-width: 1120px) {
   .content {
-    gap: 4rem; /* Aumenta o espaço entre os elementos */
-    flex-direction: column;
+    flex-direction: column; /* Alinhar em coluna */
+    gap: 2rem; /* Diminuir o espaçamento */
+    height: auto; /* Ajustar altura para evitar cortes */
   }
 
   h1 {
-    font-size: 5rem; /* Aumenta o tamanho do texto */
-    margin-top: 4rem; /* Ajusta a margem superior */
-  }
-
-  .hero-content img {
-    display: none;
+    font-size: 3rem; /* Reduzir tamanho do título */
+    margin-top: 2rem; /* Ajustar espaçamento superior */
   }
 
   .content-form {
-    width: 45rem; /* Ajusta a largura para telas maiores */
-    height: 35rem; /* Ajusta a altura */
-    padding: 3rem 4rem; /* Ajusta o padding interno */
+    width: 80%; /* Tornar responsivo */
+    height: auto; /* Ajustar altura */
+    padding: 2rem; /* Reduzir preenchimento interno */
   }
 
   .content-form h2 {
-    max-width: 30rem; /* Ajusta a largura máxima do título */
-    font-size: 2.5rem; /* Aumenta o tamanho do texto */
-    margin-bottom: 4rem; /* Ajusta o espaçamento inferior */
+    max-width: 100%; /* Tornar o título responsivo */
+    font-size: 2rem; /* Ajustar tamanho do texto */
+    margin-bottom: 2rem; /* Ajustar espaçamento */
+  }
+
+  .btn {
+    margin-bottom: 3rem; /* Reduzir espaçamento inferior */
   }
 
   .btn a {
-    font-size: 1.75rem; /* Aumenta o tamanho do texto */
-    height: 4rem; /* Ajusta a altura dos botões */
-    width: 35rem; /* Ajusta a largura dos botões */
+    font-size: 1.25rem; /* Ajustar tamanho do texto */
+    height: 3rem; /* Reduzir altura dos botões */
+    width: 90%; /* Ajustar largura para caber na tela */
   }
 
   footer p {
-    font-size: 1rem; /* Aumenta o tamanho do texto do rodapé */
+    font-size: 0.875rem; /* Manter o tamanho do texto */
   }
 
   footer a {
-    font-size: 1.25rem; /* Aumenta o tamanho do texto dos links no rodapé */
-  }
-}
-@media (max-width: 740px) {
-  .content {
-    flex-direction: column; /* Empilhar os itens verticalmente */
-    gap: 1.5rem; /* Reduzir o espaçamento */
-  }
-
-  h1 {
-    font-size: 2.5rem; /* Reduzir o tamanho do texto */
-    margin-top: 1.5rem; /* Diminuir margem superior */
-  }
-
-  .content-form {
-    width: 90%; /* Ajustar largura para telas pequenas */
-    padding: 1.5rem; /* Reduzir preenchimento */
-  }
-
-  .content-form h2 {
-    font-size: 1.5rem; /* Ajustar o tamanho do título */
-    margin-bottom: 1.5rem; /* Reduzir o espaçamento inferior */
-  }
-
-  .btn a {
-    font-size: 1rem; /* Ajustar tamanho do texto */
-    height: 2.5rem; /* Reduzir altura */
-    width: 100%; /* Ocupa toda a largura disponível */
-  }
-
-  footer p {
-    font-size: 0.75rem; /* Reduzir tamanho do texto */
-  }
-
-  footer a {
-    font-size: 1rem; /* Ajustar tamanho do link */
+    font-size: 1rem; /* Reduzir o tamanho dos links */
   }
 }
